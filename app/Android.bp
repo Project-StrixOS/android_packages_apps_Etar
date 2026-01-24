@@ -70,7 +70,7 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "org.lineageos.etar.allowlist.xml",
-    filename_from_src: true,
+    filename: "org.strixos.etar.allowlist.xml",
 }
 
 prebuilt_etc {
@@ -78,7 +78,7 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "initial-package-stopped-states-org.lineageos.etar.xml",
-    filename_from_src: true,
+    filename: "initial-package-stopped-states-org.strixos.etar.xml",
 }
 
 prebuilt_etc {
@@ -86,5 +86,5 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "preinstalled-packages-org.lineageos.etar.xml",
-    filename_from_src: true,
+    filename: "preinstalled-packages-org.strixos.etar.xml",
 }

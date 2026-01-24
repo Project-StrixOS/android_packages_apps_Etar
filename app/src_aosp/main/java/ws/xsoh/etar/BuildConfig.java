@@ -16,6 +16,6 @@
 package ws.xsoh.etar;
 
 public final class BuildConfig {
-    public static final String APPLICATION_ID = "org.lineageos.etar";
+    public static final String APPLICATION_ID = "org.strixos.etar";
     public static final boolean DEBUG = false;
 }
